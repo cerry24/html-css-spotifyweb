@@ -176,6 +176,31 @@ header i {
     vertical-align: middle;
 }
 
+#my-profile {
+    font-size: .8rem;
+}
+
+.download-app {
+    color: var(--secondary-accent-color);
+    border-bottom: 1px var(--secondary-accent-color) solid;
+    padding-bottom: .5rem;
+}
+
+.download-app i {
+    font-size: .8rem;
+}
+
+.account {
+    font-size: .9rem;
+    font-weight: bold;
+    color: var(--main-accent-color);
+    margin-top: .75rem;
+}
+
+.account i {
+    vertical-align: middle;
+}
+
 
 
 /* RESPONSIVE */
@@ -221,11 +246,16 @@ header i {
         display: block;
     }
 
-    .section-nav .link {
+    .link {
         display: none;
     }
 
     .playlist {
         display: none;
+    }
+
+    .download-app {
+        text-align: center;
+        border-bottom: none;
     }
 }
