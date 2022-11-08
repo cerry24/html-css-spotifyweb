@@ -156,9 +156,9 @@ main h2 {
     margin-top: 1rem;
 }
 
-header i {
-    font-size: 1.5rem;
-    margin-right: .3rem;
+.section-nav img {
+    width: 25px;
+    vertical-align: middle;
 }
 
 #links li {
@@ -172,7 +172,8 @@ header i {
 }
 
 .playlist i {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-right: .3rem;
     vertical-align: middle;
 }
 
@@ -186,8 +187,9 @@ header i {
     padding-bottom: .5rem;
 }
 
-.download-app i {
-    font-size: .8rem;
+.download-app img {
+    width: 16px;
+    vertical-align: middle;
 }
 
 .account {
@@ -197,9 +199,15 @@ header i {
     margin-top: .75rem;
 }
 
-.account i {
+.account img {
+    width: 25px;
+    height: 25px;
     vertical-align: middle;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: .5rem;
 }
+
 
 
 
@@ -244,6 +252,7 @@ header i {
 
     .logo-small {
         display: block;
+        width: 80%;
     }
 
     .link {
@@ -257,5 +266,9 @@ header i {
     .download-app {
         text-align: center;
         border-bottom: none;
+    }
+
+    .account img {
+        margin: 0 .3rem 0;
     }
 }
