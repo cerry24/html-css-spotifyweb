@@ -69,6 +69,10 @@ a {
     color: var(--secondary-accent-color);
 }
 
+a:hover {
+    color: var(--main-accent-color);
+}
+
 #banner {
     justify-content: end;
     align-items: center;
@@ -161,6 +165,7 @@ main h2 {
     vertical-align: middle;
 }
 
+
 #links li {
     margin-top: .8rem;
 }
@@ -207,7 +212,6 @@ main h2 {
     border-radius: 50%;
     margin-right: .5rem;
 }
-
 
 
 
@@ -270,5 +274,9 @@ main h2 {
 
     .account img {
         margin: 0 .3rem 0;
+    }
+
+    .account #username{
+        display: none;
     }
 }
