@@ -255,6 +255,7 @@ main h2 {
 }
 
 #track-details {
+    width: calc(100% / 3);
     height: 100%;
     align-items: center;
 }
@@ -282,6 +283,7 @@ main h2 {
 }
 
 #track-player {
+    width: calc(100% / 3);
     height: 100%;
 }
 
@@ -322,7 +324,9 @@ main h2 {
 }
 
 #controls {
+    width: calc(100% / 3);
     align-items: center;
+    justify-content: end;
     height: 100%;
     color: var(--secondary-accent-color);
     font-size: 1.25rem;
