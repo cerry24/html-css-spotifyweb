@@ -6,31 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Spotify</title>
         <link rel="stylesheet" href="./css/style.css">
+        
+        <!--font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <!--google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <div class="wrapper flex flex-wrap">
-            <header> <!--task list-->
+            <header class="flex flex-between flex-col"> <!--task list-->
 
                 <section id="links"> <!--navigazione sezioni spotify e playlist-->
 
-                    <div class="logo">
-
+                    <div class="logo"> <!--logo-->
+                        <img class="logo-big" src="./img/logo.svg" alt="Spotify logo and name">
+                        <img class="logo-small" src="./img/logo-small.svg" alt="Spotify logo and name">
                     </div>
 
                     <nav class="section-nav"> <!--nav sezioni spotify-->
-
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-house"></i><span class="link">Home</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i><span class="link">Cerca</span></a></li>
+                            <li><a href="#"><i class="fa-solid fa-lines-leaning"></i><span class="link">La tua libreria</span></a></li>
+                        </ul>
                     </nav>
 
                     <nav class="playlist"> <!--elenco playlist-->
-
+                        <ul>
+                            <li><h3>playlist</h3></li>
+                            <li><a href="#"><i class="fa-sharp fa-solid fa-square-plus"></i>Crea Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                            <li><a href="#">Nome Playlist</a></li>
+                        </ul>
                     </nav>
 
                 </section>
 
-                <section id="my-prfile"> <!--account-->
+                <section id="my-profile"> <!--account-->
 
                     <div class="download-app">
 

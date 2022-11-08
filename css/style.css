@@ -13,6 +13,13 @@
 .flex-wrap {
     flex-wrap: wrap;
 }
+.flex-between {
+    justify-content: space-between;
+}
+
+.flex-col {
+    flex-direction: column;
+}
 
 .container-big {
     width: 95%;
@@ -26,7 +33,7 @@
 
 :root {
     --main-accent-color: white;
-    --secondary-accent-color: rgb(125, 124, 124);
+    --secondary-accent-color: #a3a3a3;
 }
 
 body {
@@ -34,14 +41,14 @@ body {
 }
 
 header {
-    width: 240px;
+    width: 230px;
     height: calc(100vh - 100px);
     background-color: black;
 }
 
 main {
     overflow-y: scroll;
-    width: calc(100% - 240px);
+    width: calc(100% - 230px);
     height: calc(100vh - 100px);
     background-color: #141922;
 }
@@ -132,6 +139,43 @@ main h2 {
     border-radius: 50%;
 }
 
+#links,
+#my-profile {
+    padding: 1rem;
+}
+
+.logo-big {
+    width: 80%;
+}
+
+.logo-small {
+    display: none;
+}
+
+.section-nav {
+    margin-top: 1rem;
+}
+
+header i {
+    font-size: 1.5rem;
+    margin-right: .3rem;
+}
+
+#links li {
+    margin-top: .8rem;
+}
+
+.playlist h3 {
+    text-transform: uppercase;
+    color: var(--main-accent-color);
+    margin-top: 1rem;
+}
+
+.playlist i {
+    font-size: 3rem;
+    vertical-align: middle;
+}
+
 
 
 /* RESPONSIVE */
@@ -167,5 +211,21 @@ main h2 {
 
     main {
         width: calc(100% - 70px);
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+    }
+
+    .section-nav .link {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
     }
 }
