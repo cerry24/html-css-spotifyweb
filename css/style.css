@@ -26,11 +26,6 @@
     margin: 0 auto;
 }
 
-.container {
-    width: 65%;
-    margin: 0 auto;
-}
-
 :root {
     --main-accent-color: white;
     --secondary-accent-color: #a3a3a3;
@@ -260,9 +255,30 @@ main h2 {
 }
 
 #track-details {
-    width: 18rem;
     height: 100%;
-    background-color: aqua;
+    align-items: center;
+}
+
+#track-details img{
+    height: 100%;
+}
+
+.track-name {
+    margin-left: .5rem;
+}
+
+.track-name h3 {
+    color: var(--main-accent-color);
+}
+
+.icons {
+    margin-left: 1rem;
+}
+
+.icons i {
+    font-size: 1.25rem;
+    color: var(--secondary-accent-color);
+    margin: .5rem;
 }
 
 #track-player {
@@ -310,6 +326,10 @@ main h2 {
 
     .card-img i {
         font-size: 4.5rem;
+    }
+
+    .icons {
+        flex-direction: column;
     }
 }
 
