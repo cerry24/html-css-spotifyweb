@@ -272,7 +272,7 @@
 
                 <section id="track-player" class="flex flex-col"> <!--controlli di riproduzione del media-->
 
-                    <div class="track-control">
+                    <div class="track-control"> <!--controlli riproduzione-->
                         <i class="fa-solid fa-shuffle"></i>
                         <i class="fa-solid fa-backward-step"></i>
                         <i class="fa-regular fa-circle-play"></i>
@@ -280,22 +280,27 @@
                         <i class="fa-solid fa-repeat"></i>
                     </div>
 
-                    <div class="track-duration flex">
-
+                    <div class="track-duration flex"> <!--barra durata canzone-->
                         <span>0:25</span>
-
-                        <div class="bar-container">
+                        <div class="time-bar-container">
                             <div class="time-bar"></div>
                         </div>
-
                         <span>4:35</span>
-
                     </div>
 
                 </section>
 
-                <section id="controls"> <!--coda, dispositivi, volume-->
+                <section id="controls" class="flex"> <!--coda, dispositivi, volume-->
 
+                    <i class="fa-solid fa-bars"></i>
+
+                    <i class="fa-solid fa-desktop"></i>
+
+                    <i class="fa-solid fa-volume-high"></i>
+
+                    <div class="vol-bar-container">
+                        <div class="volume-bar"></div>
+                    </div>
                 </section>
 
             </footer>
