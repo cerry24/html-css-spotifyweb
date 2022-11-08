@@ -282,9 +282,43 @@ main h2 {
 }
 
 #track-player {
-    width: 40rem;
     height: 100%;
-    background-color: aqua;
+}
+
+.track-control,
+.track-duration {
+    flex-basis: 50%;
+}
+
+.track-control {
+    text-align: center;
+    font-size: 2rem;
+    color: var(--main-accent-color);
+}
+
+.track-control i {
+    margin: 0 1rem;
+}
+
+.track-duration {
+    align-items: flex-end;
+    font-size: 1.25rem;
+    color: var(--main-accent-color);
+}
+
+.bar-container {
+    width: 500px;
+    height: 13px;
+    background-color: var(--secondary-accent-color);
+    border-radius: 4px;
+    margin: 0 2rem .2rem;
+}
+
+.time-bar {
+    width: 20%;
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 4px;
 }
 
 #controls {
@@ -292,6 +326,7 @@ main h2 {
     height: 100%;
     background-color: aqua;
 }
+
 
 
 
