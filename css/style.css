@@ -115,6 +115,13 @@ a:hover {
     margin: .5rem;
 }
 
+.green-bar {
+    width: 36px;
+    height: 5px;
+    background-color: #adff2f;
+    margin: .25rem auto;
+}
+
 main h2 {
     font-size: xx-large;
     font-weight: 900;
@@ -184,6 +191,18 @@ main h2 {
 
 .section-nav {
     margin-top: 1rem;
+}
+
+.section-nav li:first-child {
+    position: relative;
+}
+
+.section-nav .green-bar {
+    position: absolute;
+    top: 10px;
+    right: calc(100% - 5px);
+    transform: rotate(90deg);
+    margin: 0;
 }
 
 .section-nav img {
